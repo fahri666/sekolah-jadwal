@@ -1,0 +1,37 @@
+body {
+    background-color: blueviolet;
+}
+.jadwalkelas {
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+.isitabel {
+    background-color: white;
+}
+.utamatabel {
+    margin: 3px;
+    margin-left: 3px;
+    float: left;
+}
+th, td {
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+}
+.tablepala {
+    background-color: blueviolet;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:428px) {
+    .utamatabel {
+        width: 97%;
+    }  
+    th, td {
+        font-size: 9px;
+    } 
+}
